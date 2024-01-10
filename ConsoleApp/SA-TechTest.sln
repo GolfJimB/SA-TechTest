@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp.csproj", "{69750F05-C55E-4CB5-A484-ABC5B7E298F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherService", "..\WeatherService\WeatherService.csproj", "{EA393E5B-19AF-41BF-8158-B26BDC523ADD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "..\Common\Common.csproj", "{460AE91E-51E3-48FD-9D4F-5863E2D23CF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69750F05-C55E-4CB5-A484-ABC5B7E298F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69750F05-C55E-4CB5-A484-ABC5B7E298F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69750F05-C55E-4CB5-A484-ABC5B7E298F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69750F05-C55E-4CB5-A484-ABC5B7E298F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA393E5B-19AF-41BF-8158-B26BDC523ADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA393E5B-19AF-41BF-8158-B26BDC523ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA393E5B-19AF-41BF-8158-B26BDC523ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA393E5B-19AF-41BF-8158-B26BDC523ADD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{460AE91E-51E3-48FD-9D4F-5863E2D23CF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{460AE91E-51E3-48FD-9D4F-5863E2D23CF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{460AE91E-51E3-48FD-9D4F-5863E2D23CF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{460AE91E-51E3-48FD-9D4F-5863E2D23CF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BD0B048-1DC3-4C00-9D02-000AEA1D6A96}
+	EndGlobalSection
+EndGlobal
